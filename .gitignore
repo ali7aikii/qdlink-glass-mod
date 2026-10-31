@@ -1,0 +1,17 @@
+# ---- Never commit these ----
+
+# Your signing key: anyone who has it can sign apps as you
+*.keystore
+*.jks
+
+# QDLink's own files and anything made from them (the app belongs to its developer)
+original/
+decoded/
+build/
+out/
+*.apk
+*.apks
+*.xapk
+
+# Mac and editor leftovers
+.DS_Store
